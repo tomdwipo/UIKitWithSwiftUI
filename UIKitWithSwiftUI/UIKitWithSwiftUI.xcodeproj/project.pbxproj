@@ -16,6 +16,7 @@
 		AA679CB3285221950032126D /* UIKitWithSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA679CB2285221950032126D /* UIKitWithSwiftUITests.swift */; };
 		AA679CBD285221950032126D /* UIKitWithSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA679CBC285221950032126D /* UIKitWithSwiftUIUITests.swift */; };
 		AA679CBF285221950032126D /* UIKitWithSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA679CBE285221950032126D /* UIKitWithSwiftUIUITestsLaunchTests.swift */; };
+		AA99A6A62859D3B600504106 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA99A6A52859D3B600504106 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		AA679CB8285221950032126D /* UIKitWithSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIKitWithSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA679CBC285221950032126D /* UIKitWithSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitWithSwiftUIUITests.swift; sourceTree = "<group>"; };
 		AA679CBE285221950032126D /* UIKitWithSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitWithSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AA99A6A52859D3B600504106 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA1417E02852239D00BCC97B /* SwiftUI Views */ = {
+			isa = PBXGroup;
+			children = (
+				AA99A6A52859D3B600504106 /* SettingsView.swift */,
+			);
+			path = "SwiftUI Views";
+			sourceTree = "<group>";
+		};
 		AA679C8F285221910032126D = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +109,7 @@
 		AA679C9A285221910032126D /* UIKitWithSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				AA1417E02852239D00BCC97B /* SwiftUI Views */,
 				AA679C9B285221910032126D /* AppDelegate.swift */,
 				AA679C9D285221910032126D /* SceneDelegate.swift */,
 				AA679C9F285221910032126D /* ViewController.swift */,
@@ -259,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA679CA0285221910032126D /* ViewController.swift in Sources */,
+				AA99A6A62859D3B600504106 /* SettingsView.swift in Sources */,
 				AA679C9C285221910032126D /* AppDelegate.swift in Sources */,
 				AA679C9E285221910032126D /* SceneDelegate.swift in Sources */,
 			);
