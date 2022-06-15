@@ -16,18 +16,32 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bvk-Y6-lse">
-                                <rect key="frame" x="97" y="315" width="220" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bvk-Y6-lse">
+                                <rect key="frame" x="97" y="432.5" width="220" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Open SwiftUI View with Segue"/>
                                 <connections>
                                     <segue destination="gEz-P1-gzF" kind="show" id="j1j-ht-plx"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RLE-B1-He7">
+                                <rect key="frame" x="97" y="479.5" width="220" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Open SwiftUI View with Code"/>
+                                <connections>
+                                    <action selector="openSwiftUiWithCode:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fBb-WY-Mh2"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="bvk-Y6-lse" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="14p-7z-wti"/>
+                            <constraint firstItem="bvk-Y6-lse" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ctd-E6-aeL"/>
+                            <constraint firstItem="RLE-B1-He7" firstAttribute="top" secondItem="bvk-Y6-lse" secondAttribute="bottom" constant="16" id="dIX-mE-YCC"/>
+                            <constraint firstItem="RLE-B1-He7" firstAttribute="trailing" secondItem="bvk-Y6-lse" secondAttribute="trailing" id="mdV-RC-fkY"/>
+                            <constraint firstItem="RLE-B1-He7" firstAttribute="leading" secondItem="bvk-Y6-lse" secondAttribute="leading" id="o4I-hO-S98"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="UIViewController" id="9BV-Dx-GA5"/>
                 </viewController>
