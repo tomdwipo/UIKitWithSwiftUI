@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bvk-Y6-lse">
-                                <rect key="frame" x="97" y="432.5" width="220" height="31"/>
+                                <rect key="frame" x="97" y="160" width="220" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Open SwiftUI View with Segue"/>
                                 <connections>
@@ -25,11 +25,24 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RLE-B1-He7">
-                                <rect key="frame" x="97" y="479.5" width="220" height="31"/>
+                                <rect key="frame" x="97" y="207" width="220" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Open SwiftUI View with Code"/>
                                 <connections>
-                                    <action selector="openSwiftUiWithCode:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fBb-WY-Mh2"/>
+                                    <action selector="openSwiftUiWithCode:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OV7-Fh-ycQ"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XfX-dv-OJV">
+                                <rect key="frame" x="97" y="250" width="220" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j1K-Sh-G9y">
+                                <rect key="frame" x="97" y="296" width="220" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Pass Data to SwiftUI View"/>
+                                <connections>
+                                    <segue destination="IIm-Yw-yae" kind="show" identifier="toShowDataView" id="XhK-ff-vnO"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -37,17 +50,36 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="bvk-Y6-lse" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="14p-7z-wti"/>
-                            <constraint firstItem="bvk-Y6-lse" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ctd-E6-aeL"/>
+                            <constraint firstItem="bvk-Y6-lse" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="6bF-fJ-ihJ"/>
+                            <constraint firstItem="j1K-Sh-G9y" firstAttribute="trailing" secondItem="XfX-dv-OJV" secondAttribute="trailing" id="GV8-pR-00Z"/>
+                            <constraint firstItem="XfX-dv-OJV" firstAttribute="trailing" secondItem="RLE-B1-He7" secondAttribute="trailing" id="OjC-ia-bXH"/>
+                            <constraint firstItem="j1K-Sh-G9y" firstAttribute="top" secondItem="XfX-dv-OJV" secondAttribute="bottom" constant="12" id="SCd-ej-Yjs"/>
+                            <constraint firstItem="XfX-dv-OJV" firstAttribute="leading" secondItem="RLE-B1-He7" secondAttribute="leading" id="b5y-hL-tQJ"/>
                             <constraint firstItem="RLE-B1-He7" firstAttribute="top" secondItem="bvk-Y6-lse" secondAttribute="bottom" constant="16" id="dIX-mE-YCC"/>
+                            <constraint firstItem="j1K-Sh-G9y" firstAttribute="leading" secondItem="XfX-dv-OJV" secondAttribute="leading" id="fbW-1D-G6X"/>
+                            <constraint firstItem="XfX-dv-OJV" firstAttribute="top" secondItem="RLE-B1-He7" secondAttribute="bottom" constant="12" id="gfc-hl-dhV"/>
                             <constraint firstItem="RLE-B1-He7" firstAttribute="trailing" secondItem="bvk-Y6-lse" secondAttribute="trailing" id="mdV-RC-fkY"/>
                             <constraint firstItem="RLE-B1-He7" firstAttribute="leading" secondItem="bvk-Y6-lse" secondAttribute="leading" id="o4I-hO-S98"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="UIViewController" id="9BV-Dx-GA5"/>
+                    <connections>
+                        <outlet property="dataTextField" destination="XfX-dv-OJV" id="frG-zM-wmR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="843" y="84"/>
+            <point key="canvasLocation" x="842.02898550724649" y="83.705357142857139"/>
+        </scene>
+        <!--Show Data View Hosting View Controller-->
+        <scene sceneID="mBy-JD-8Hr">
+            <objects>
+                <hostingController id="IIm-Yw-yae" customClass="ShowDataViewHostingViewController" customModule="UIKitWithSwiftUI" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="dE0-R7-eCp"/>
+                </hostingController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kVn-0x-8El" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="842" y="799"/>
         </scene>
         <!--SwiftUI View-->
         <scene sceneID="G1k-Sq-IiU">
