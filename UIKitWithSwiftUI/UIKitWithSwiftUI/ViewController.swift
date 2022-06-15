@@ -20,7 +20,6 @@ class ViewController: UIViewController {
         if segue.identifier == "toShowDataView" {
             if let hc = segue.destination as? ShowDataViewHostingViewController {
                 hc.rootView = ShowDataView(dataTextField: dataTextField)
-//                navigationController?.pushViewController(hc, animated: true)
             }
         }
     }
