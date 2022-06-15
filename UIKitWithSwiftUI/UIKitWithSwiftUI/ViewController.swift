@@ -10,8 +10,19 @@ import SwiftUI
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var dataTextField: UITextField!
+   
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "toShowDataView" {
+            if let hc = segue.destination as? ShowDataViewHostingViewController {
+                hc.rootView = ShowDataView(dataTextField: dataTextField)
+//                navigationController?.pushViewController(hc, animated: true)
+            }
+        }
     }
 
 

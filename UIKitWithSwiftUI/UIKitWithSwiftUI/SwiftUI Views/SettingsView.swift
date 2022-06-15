@@ -11,6 +11,7 @@ struct SettingsView: View {
     var body: some View {
         Text("Settings")
     }
+    
 }
 
 struct SettingsView_Previews: PreviewProvider {
@@ -23,4 +24,9 @@ class SettingsViewHostingController: UIHostingController<SettingsView> {
     required init?(coder aDecoder: NSCoder) {
         super.init(rootView: SettingsView())
     }
+    
+    deinit {
+        print("Deallocated")
+    }
+
 }
