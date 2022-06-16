@@ -29,5 +29,12 @@ class ViewController: UIViewController {
         let profileView = UIHostingController(rootView: ProfileView())
         navigationController?.pushViewController(profileView, animated: true)
     }
+    
+    @IBAction func passDataToSwiftUiWithCode(_ sender: Any) {
+        let view = ShowDataViewWithCode(dataPassedIn: dataTextField.text ?? "")
+        let dataView = UIHostingController(rootView: view)
+        navigationController?.pushViewController(dataView, animated: true)
+
+    }
 }
 
