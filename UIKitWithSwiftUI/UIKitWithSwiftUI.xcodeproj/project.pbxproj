@@ -21,6 +21,7 @@
 		AA99A6AA2859E13100504106 /* ShowDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA99A6A92859E13100504106 /* ShowDataView.swift */; };
 		D98EA122285AF6FB009A3D96 /* ShowDataViewWithCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98EA121285AF6FB009A3D96 /* ShowDataViewWithCode.swift */; };
 		D9CB9108285C493B0082DD62 /* SendDataBackToUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CB9107285C493B0082DD62 /* SendDataBackToUIViewController.swift */; };
+		D9CB910A285C889B0082DD62 /* LayoutIntroduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CB9109285C889B0082DD62 /* LayoutIntroduction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		AA99A6A92859E13100504106 /* ShowDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDataView.swift; sourceTree = "<group>"; };
 		D98EA121285AF6FB009A3D96 /* ShowDataViewWithCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDataViewWithCode.swift; sourceTree = "<group>"; };
 		D9CB9107285C493B0082DD62 /* SendDataBackToUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendDataBackToUIViewController.swift; sourceTree = "<group>"; };
+		D9CB9109285C889B0082DD62 /* LayoutIntroduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutIntroduction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				AA99A6A92859E13100504106 /* ShowDataView.swift */,
 				D98EA121285AF6FB009A3D96 /* ShowDataViewWithCode.swift */,
 				D9CB9107285C493B0082DD62 /* SendDataBackToUIViewController.swift */,
+				D9CB9109285C889B0082DD62 /* LayoutIntroduction.swift */,
 			);
 			path = "SwiftUI Views";
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 				AA679C9C285221910032126D /* AppDelegate.swift in Sources */,
 				D9CB9108285C493B0082DD62 /* SendDataBackToUIViewController.swift in Sources */,
 				D98EA122285AF6FB009A3D96 /* ShowDataViewWithCode.swift in Sources */,
+				D9CB910A285C889B0082DD62 /* LayoutIntroduction.swift in Sources */,
 				AA679C9E285221910032126D /* SceneDelegate.swift in Sources */,
 				AA99A6AA2859E13100504106 /* ShowDataView.swift in Sources */,
 			);
