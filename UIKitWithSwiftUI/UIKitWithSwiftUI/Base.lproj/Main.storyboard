@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="flQ-3c-NKM">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -17,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="SmE-Ez-guO">
-                                <rect key="frame" x="95" y="343" width="224.5" height="210"/>
+                                <rect key="frame" x="95" y="304.5" width="224.5" height="287.5"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bvk-Y6-lse">
                                         <rect key="frame" x="0.0" y="0.0" width="224.5" height="31"/>
@@ -56,6 +57,20 @@
                                             <action selector="passDataToSwiftUiWithCode:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UPi-f4-7jF"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9de-rt-ATd">
+                                        <rect key="frame" x="0.0" y="223" width="224.5" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Enter Name"/>
+                                        <connections>
+                                            <action selector="enterNameButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uOf-zF-QLE"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nRw-a7-glE">
+                                        <rect key="frame" x="0.0" y="267" width="224.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                             </stackView>
                         </subviews>
@@ -69,6 +84,7 @@
                     <navigationItem key="navigationItem" title="UIViewController" id="9BV-Dx-GA5"/>
                     <connections>
                         <outlet property="dataTextField" destination="XfX-dv-OJV" id="frG-zM-wmR"/>
+                        <outlet property="nameLabel" destination="nRw-a7-glE" id="SX1-fA-mCa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

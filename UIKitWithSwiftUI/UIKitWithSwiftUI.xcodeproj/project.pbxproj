@@ -20,6 +20,7 @@
 		AA99A6A82859D85F00504106 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA99A6A72859D85F00504106 /* ProfileView.swift */; };
 		AA99A6AA2859E13100504106 /* ShowDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA99A6A92859E13100504106 /* ShowDataView.swift */; };
 		D98EA122285AF6FB009A3D96 /* ShowDataViewWithCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98EA121285AF6FB009A3D96 /* ShowDataViewWithCode.swift */; };
+		D9CB9108285C493B0082DD62 /* SendDataBackToUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CB9107285C493B0082DD62 /* SendDataBackToUIViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		AA99A6A72859D85F00504106 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		AA99A6A92859E13100504106 /* ShowDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDataView.swift; sourceTree = "<group>"; };
 		D98EA121285AF6FB009A3D96 /* ShowDataViewWithCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDataViewWithCode.swift; sourceTree = "<group>"; };
+		D9CB9107285C493B0082DD62 /* SendDataBackToUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendDataBackToUIViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				AA99A6A72859D85F00504106 /* ProfileView.swift */,
 				AA99A6A92859E13100504106 /* ShowDataView.swift */,
 				D98EA121285AF6FB009A3D96 /* ShowDataViewWithCode.swift */,
+				D9CB9107285C493B0082DD62 /* SendDataBackToUIViewController.swift */,
 			);
 			path = "SwiftUI Views";
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 				AA99A6A62859D3B600504106 /* SettingsView.swift in Sources */,
 				AA99A6A82859D85F00504106 /* ProfileView.swift in Sources */,
 				AA679C9C285221910032126D /* AppDelegate.swift in Sources */,
+				D9CB9108285C493B0082DD62 /* SendDataBackToUIViewController.swift in Sources */,
 				D98EA122285AF6FB009A3D96 /* ShowDataViewWithCode.swift in Sources */,
 				AA679C9E285221910032126D /* SceneDelegate.swift in Sources */,
 				AA99A6AA2859E13100504106 /* ShowDataView.swift in Sources */,
@@ -468,6 +472,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -495,6 +500,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
