@@ -25,6 +25,7 @@
 		D9CB910A285C889B0082DD62 /* LayoutIntroduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CB9109285C889B0082DD62 /* LayoutIntroduction.swift */; };
 		D9DED1132861A26F001C0D63 /* LazyVStackExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DED1122861A26F001C0D63 /* LazyVStackExample.swift */; };
 		D9DED1152861A971001C0D63 /* LazyVGridExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DED1142861A971001C0D63 /* LazyVGridExample.swift */; };
+		D9DED1182861B45E001C0D63 /* VisualEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DED1172861B45E001C0D63 /* VisualEffectView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		D9CB9109285C889B0082DD62 /* LayoutIntroduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutIntroduction.swift; sourceTree = "<group>"; };
 		D9DED1122861A26F001C0D63 /* LazyVStackExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVStackExample.swift; sourceTree = "<group>"; };
 		D9DED1142861A971001C0D63 /* LazyVGridExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGridExample.swift; sourceTree = "<group>"; };
+		D9DED1172861B45E001C0D63 /* VisualEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualEffectView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		AA1417E02852239D00BCC97B /* SwiftUI Views */ = {
 			isa = PBXGroup;
 			children = (
+				D9DED1162861B43C001C0D63 /* Representables */,
 				D9DED1112861A245001C0D63 /* TabelsAndCollectionViews */,
 				AA99A6A52859D3B600504106 /* SettingsView.swift */,
 				AA99A6A72859D85F00504106 /* ProfileView.swift */,
@@ -168,6 +171,14 @@
 				D9DED1142861A971001C0D63 /* LazyVGridExample.swift */,
 			);
 			path = TabelsAndCollectionViews;
+			sourceTree = "<group>";
+		};
+		D9DED1162861B43C001C0D63 /* Representables */ = {
+			isa = PBXGroup;
+			children = (
+				D9DED1172861B45E001C0D63 /* VisualEffectView.swift */,
+			);
+			path = Representables;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,6 +323,7 @@
 				D98FD6A9285F32F5000118EC /* ComplexUIView.swift in Sources */,
 				AA679C9E285221910032126D /* SceneDelegate.swift in Sources */,
 				AA99A6AA2859E13100504106 /* ShowDataView.swift in Sources */,
+				D9DED1182861B45E001C0D63 /* VisualEffectView.swift in Sources */,
 				D9DED1132861A26F001C0D63 /* LazyVStackExample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
