@@ -48,5 +48,13 @@ class ViewController: UIViewController {
         navigationController?.pushViewController(nameView, animated: true)
 
     }
+    
+    @IBAction func openComplexUIView(_ sender: Any) {
+        let view = ComplexUIView()
+        let hc = UIHostingController(rootView: view)
+        navigationController?.pushViewController(hc, animated: true)
+
+    }
+    
 }
 
