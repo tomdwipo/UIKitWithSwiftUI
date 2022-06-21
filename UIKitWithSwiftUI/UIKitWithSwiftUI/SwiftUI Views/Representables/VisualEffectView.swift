@@ -23,6 +23,7 @@ struct VisualEffectViewRepresentable: UIViewRepresentable {
 
 struct VisualEffectView: View {
     var body: some View {
+        
         ZStack {
             Image("Utah")
             Text("Arches National Park")

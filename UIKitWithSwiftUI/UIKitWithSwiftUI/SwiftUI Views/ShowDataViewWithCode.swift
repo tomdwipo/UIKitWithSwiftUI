@@ -11,6 +11,7 @@ struct ShowDataViewWithCode: View {
     var dataPassedIn: String = "no data passed in"
     var body: some View {
         if #available(iOS 14.0, *) {
+            
             VStack {
                 Text("Here is the data passed in:")
                 Text(dataPassedIn)
