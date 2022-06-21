@@ -63,15 +63,30 @@ struct ComplexUIView: View {
                     Text("25 tasks")
 
                 }
-                VStack(alignment: .leading, spacing: 40.0) {
-                    Text("Recently Assigned")
-                        .font(.title)
-                    .fontWeight(.bold)
-                    Text("Mobile App").fontWeight(.bold)
-                    Text("Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, ")
-                        
-                    Text("12 Dec 2022")
+                VStack(alignment: .leading, spacing: 30.0) {
+                    if #available(iOS 14.0, *) {
+                        HStack {
+                            Text("Recently Assigned")
+                                .font(.title2)
+                                .fontWeight(.bold)
+                            Spacer()
+                            Text("All tasks").font(.footnote)
+                        }
+                    }
+                    VStack(alignment: .leading, spacing: 20.0) {
+                        Text("Mobile App").fontWeight(.bold)
+                        Text("Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's")
+                        Text("12 Dec 2022")
+                    }
+                    .padding()
+                    .background(RoundedRectangle(cornerRadius: 25)
+                        .fill(Color(#colorLiteral(red: 0.9137255549, green: 0.9137255549, blue: 0.9137255549, alpha: 1)))
+                        .shadow(color: .gray, radius: 5, x: 4, y: 4))
                 }
+                .frame(maxWidth: .infinity)
+                .padding()
+                .background(RoundedRectangle(cornerRadius: 25)
+                    .fill(Color(#colorLiteral(red: 0.9137255549, green: 0.9137255549, blue: 0.9137255549, alpha: 1))))
             }
             .padding()
         }
