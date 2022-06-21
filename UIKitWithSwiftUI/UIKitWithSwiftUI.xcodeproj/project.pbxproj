@@ -20,6 +20,7 @@
 		AA99A6A82859D85F00504106 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA99A6A72859D85F00504106 /* ProfileView.swift */; };
 		AA99A6AA2859E13100504106 /* ShowDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA99A6A92859E13100504106 /* ShowDataView.swift */; };
 		D98EA122285AF6FB009A3D96 /* ShowDataViewWithCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98EA121285AF6FB009A3D96 /* ShowDataViewWithCode.swift */; };
+		D98FD6A9285F32F5000118EC /* ComplexUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98FD6A8285F32F5000118EC /* ComplexUIView.swift */; };
 		D9CB9108285C493B0082DD62 /* SendDataBackToUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CB9107285C493B0082DD62 /* SendDataBackToUIViewController.swift */; };
 		D9CB910A285C889B0082DD62 /* LayoutIntroduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CB9109285C889B0082DD62 /* LayoutIntroduction.swift */; };
 /* End PBXBuildFile section */
@@ -59,6 +60,7 @@
 		AA99A6A72859D85F00504106 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		AA99A6A92859E13100504106 /* ShowDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDataView.swift; sourceTree = "<group>"; };
 		D98EA121285AF6FB009A3D96 /* ShowDataViewWithCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDataViewWithCode.swift; sourceTree = "<group>"; };
+		D98FD6A8285F32F5000118EC /* ComplexUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplexUIView.swift; sourceTree = "<group>"; };
 		D9CB9107285C493B0082DD62 /* SendDataBackToUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendDataBackToUIViewController.swift; sourceTree = "<group>"; };
 		D9CB9109285C889B0082DD62 /* LayoutIntroduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutIntroduction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -97,6 +99,7 @@
 				D98EA121285AF6FB009A3D96 /* ShowDataViewWithCode.swift */,
 				D9CB9107285C493B0082DD62 /* SendDataBackToUIViewController.swift */,
 				D9CB9109285C889B0082DD62 /* LayoutIntroduction.swift */,
+				D98FD6A8285F32F5000118EC /* ComplexUIView.swift */,
 			);
 			path = "SwiftUI Views";
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 				D9CB9108285C493B0082DD62 /* SendDataBackToUIViewController.swift in Sources */,
 				D98EA122285AF6FB009A3D96 /* ShowDataViewWithCode.swift in Sources */,
 				D9CB910A285C889B0082DD62 /* LayoutIntroduction.swift in Sources */,
+				D98FD6A9285F32F5000118EC /* ComplexUIView.swift in Sources */,
 				AA679C9E285221910032126D /* SceneDelegate.swift in Sources */,
 				AA99A6AA2859E13100504106 /* ShowDataView.swift in Sources */,
 			);
