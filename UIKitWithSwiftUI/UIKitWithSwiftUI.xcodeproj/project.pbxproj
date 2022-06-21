@@ -26,6 +26,7 @@
 		D9DED1132861A26F001C0D63 /* LazyVStackExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DED1122861A26F001C0D63 /* LazyVStackExample.swift */; };
 		D9DED1152861A971001C0D63 /* LazyVGridExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DED1142861A971001C0D63 /* LazyVGridExample.swift */; };
 		D9DED1182861B45E001C0D63 /* VisualEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DED1172861B45E001C0D63 /* VisualEffectView.swift */; };
+		D9DED11A2861BABB001C0D63 /* SafariSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DED1192861BABB001C0D63 /* SafariSwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		D9DED1122861A26F001C0D63 /* LazyVStackExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVStackExample.swift; sourceTree = "<group>"; };
 		D9DED1142861A971001C0D63 /* LazyVGridExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGridExample.swift; sourceTree = "<group>"; };
 		D9DED1172861B45E001C0D63 /* VisualEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualEffectView.swift; sourceTree = "<group>"; };
+		D9DED1192861BABB001C0D63 /* SafariSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariSwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +179,7 @@
 			isa = PBXGroup;
 			children = (
 				D9DED1172861B45E001C0D63 /* VisualEffectView.swift */,
+				D9DED1192861BABB001C0D63 /* SafariSwiftUIView.swift */,
 			);
 			path = Representables;
 			sourceTree = "<group>";
@@ -318,6 +321,7 @@
 				AA679C9C285221910032126D /* AppDelegate.swift in Sources */,
 				D9CB9108285C493B0082DD62 /* SendDataBackToUIViewController.swift in Sources */,
 				D9DED1152861A971001C0D63 /* LazyVGridExample.swift in Sources */,
+				D9DED11A2861BABB001C0D63 /* SafariSwiftUIView.swift in Sources */,
 				D98EA122285AF6FB009A3D96 /* ShowDataViewWithCode.swift in Sources */,
 				D9CB910A285C889B0082DD62 /* LayoutIntroduction.swift in Sources */,
 				D98FD6A9285F32F5000118EC /* ComplexUIView.swift in Sources */,
