@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ComplexUIView: View {
+    @State var searchText: String = ""
     var body: some View {
         ZStack {
             if #available(iOS 14.0, *) {
@@ -27,6 +28,13 @@ struct ComplexUIView: View {
                     RoundedRectangle(cornerRadius: 5)
                         .frame(width: 50.0, height: 50.0)
                 }
+                TextField("Search", text: $searchText)
+                    .padding()
+                    .background(Capsule().fill(.white))
+                    .overlay(Image(systemName: "magnifyingglass")
+                                    .foregroundColor(.gray)
+                                    .padding()
+                             , alignment: .trailing)
                 Text("My Tasks")
                     .font(.title)
                     .fontWeight(.bold)
@@ -61,6 +69,7 @@ struct ComplexUIView: View {
                     .fontWeight(.bold)
                     Text("Mobile App").fontWeight(.bold)
                     Text("Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, ")
+                        
                     Text("12 Dec 2022")
                 }
             }
