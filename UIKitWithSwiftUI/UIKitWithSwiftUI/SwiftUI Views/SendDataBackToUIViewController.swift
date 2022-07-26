@@ -23,7 +23,6 @@ struct SendDataBackToUIViewController: View {
             } label: {
                 Text("Update Name")
             }
-
         }
     }
 }

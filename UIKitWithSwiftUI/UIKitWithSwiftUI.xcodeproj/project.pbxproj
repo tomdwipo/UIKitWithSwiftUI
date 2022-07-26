@@ -19,6 +19,7 @@
 		AA99A6A62859D3B600504106 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA99A6A52859D3B600504106 /* SettingsView.swift */; };
 		AA99A6A82859D85F00504106 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA99A6A72859D85F00504106 /* ProfileView.swift */; };
 		AA99A6AA2859E13100504106 /* ShowDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA99A6A92859E13100504106 /* ShowDataView.swift */; };
+		D95B77B7289015B600DEA63B /* UIHostingController+keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95B77B6289015B600DEA63B /* UIHostingController+keyboard.swift */; };
 		D98EA122285AF6FB009A3D96 /* ShowDataViewWithCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98EA121285AF6FB009A3D96 /* ShowDataViewWithCode.swift */; };
 		D98FD6A9285F32F5000118EC /* ComplexUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98FD6A8285F32F5000118EC /* ComplexUIView.swift */; };
 		D9CB9108285C493B0082DD62 /* SendDataBackToUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CB9107285C493B0082DD62 /* SendDataBackToUIViewController.swift */; };
@@ -63,6 +64,7 @@
 		AA99A6A52859D3B600504106 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		AA99A6A72859D85F00504106 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		AA99A6A92859E13100504106 /* ShowDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDataView.swift; sourceTree = "<group>"; };
+		D95B77B6289015B600DEA63B /* UIHostingController+keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIHostingController+keyboard.swift"; sourceTree = "<group>"; };
 		D98EA121285AF6FB009A3D96 /* ShowDataViewWithCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDataViewWithCode.swift; sourceTree = "<group>"; };
 		D98FD6A8285F32F5000118EC /* ComplexUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplexUIView.swift; sourceTree = "<group>"; };
 		D9CB9107285C493B0082DD62 /* SendDataBackToUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendDataBackToUIViewController.swift; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 				AA679CA4285221950032126D /* Assets.xcassets */,
 				AA679CA6285221950032126D /* LaunchScreen.storyboard */,
 				AA679CA9285221950032126D /* Info.plist */,
+				D95B77B6289015B600DEA63B /* UIHostingController+keyboard.swift */,
 			);
 			path = UIKitWithSwiftUI;
 			sourceTree = "<group>";
@@ -322,6 +325,7 @@
 				D9CB9108285C493B0082DD62 /* SendDataBackToUIViewController.swift in Sources */,
 				D9DED1152861A971001C0D63 /* LazyVGridExample.swift in Sources */,
 				D9DED11A2861BABB001C0D63 /* SafariSwiftUIView.swift in Sources */,
+				D95B77B7289015B600DEA63B /* UIHostingController+keyboard.swift in Sources */,
 				D98EA122285AF6FB009A3D96 /* ShowDataViewWithCode.swift in Sources */,
 				D9CB910A285C889B0082DD62 /* LayoutIntroduction.swift in Sources */,
 				D98FD6A9285F32F5000118EC /* ComplexUIView.swift in Sources */,
